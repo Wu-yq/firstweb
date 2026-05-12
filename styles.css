@@ -1,0 +1,353 @@
+/* 沈阳兴华源电力工程设计有限公司 — 极简工程院风格，无动效依赖 */
+
+:root {
+  --navy-900: #0a1628;
+  --navy-800: #0f2744;
+  --navy-700: #153a5c;
+  --navy-600: #1e4d7b;
+  --text: #1a2332;
+  --muted: #4a5568;
+  --border: #d4dbe5;
+  --surface: #ffffff;
+  --bg: #f0f3f8;
+  --header-h: 56px;
+  /* 正方形 logo：顶栏内边距下建议 32–38px，过大易成「红方块」抢导航 */
+  --logo-size: 36px;
+  --radius: 4px;
+  --max: 920px;
+  --max-wide: 960px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 12px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: var(--navy-600);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--navy-700);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--navy-900);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header-inner {
+  max-width: var(--max-wide);
+  margin: 0 auto;
+  padding: 10px 18px 12px;
+  min-height: var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.brand-link:hover {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+/* 正方形 logo：不使用圆角，避免四角弧边裁切或遮挡图形主体 */
+.brand-mark {
+  width: var(--logo-size);
+  height: var(--logo-size);
+  min-width: var(--logo-size);
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+.brand-text {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  justify-content: flex-end;
+}
+
+.site-nav a {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.8125rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-nav a:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.hero {
+  padding: 56px 18px 48px;
+  background: linear-gradient(165deg, var(--navy-800) 0%, var(--navy-900) 55%);
+  color: #e8eef5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.hero-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.hero-kicker {
+  margin: 0 0 10px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.hero h1 {
+  margin: 0 0 16px;
+  font-size: clamp(1.35rem, 4vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1.35;
+  color: #fff;
+}
+
+.hero-tagline {
+  margin: 0 0 28px;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: rgba(232, 238, 245, 0.92);
+  max-width: 40rem;
+}
+
+.hero-tagline strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.hero-facts {
+  margin: 0;
+  max-width: 28rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 20px;
+}
+
+.hero-fact-row {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 8px 16px;
+  margin-bottom: 12px;
+}
+
+.hero-fact-row:last-child {
+  margin-bottom: 0;
+}
+
+.hero-facts dt {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.hero-facts dd {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.section {
+  padding: 44px 18px;
+}
+
+.section-surface {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section-inner {
+  max-width: var(--max-wide);
+  margin: 0 auto;
+}
+
+.section-inner.narrow {
+  max-width: var(--max);
+}
+
+.section h2 {
+  margin: 0 0 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy-800);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--navy-600);
+  display: inline-block;
+  min-width: min(100%, 12rem);
+}
+
+.sub-block {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.sub-block:first-of-type {
+  margin-top: 28px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.sub-block h3 {
+  margin: 0 0 14px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy-700);
+}
+
+.prose {
+  margin: 0;
+}
+
+.prose p {
+  margin: 0 0 14px;
+  color: var(--text);
+  max-width: 52rem;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.content-list {
+  margin: 0 0 16px;
+  padding-left: 1.2rem;
+  color: var(--text);
+}
+
+.content-list:last-child {
+  margin-bottom: 0;
+}
+
+.content-list li {
+  margin-bottom: 10px;
+  padding-left: 2px;
+}
+
+.content-list li:last-child {
+  margin-bottom: 0;
+}
+
+.partner-names {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.vision-block p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer {
+  padding: 28px 18px;
+  background: var(--navy-900);
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.site-footer p {
+  margin: 0 0 6px;
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-meta {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .hero-fact-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .site-nav a {
+    font-size: 0.78rem;
+  }
+
+  .section {
+    padding: 36px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-nav ul {
+    gap: 8px 10px;
+  }
+
+  .site-nav a {
+    white-space: normal;
+  }
+
+  :root {
+    --logo-size: 32px;
+  }
+
+  .brand-text {
+    font-size: 0.875rem;
+  }
+}
