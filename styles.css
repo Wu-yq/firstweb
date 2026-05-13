@@ -293,6 +293,83 @@ a:hover {
   margin-bottom: 0;
 }
 
+.page-main {
+  min-height: 40vh;
+}
+
+.article-intro {
+  margin-bottom: 20px;
+}
+
+.article-index-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--text);
+}
+
+.article-index-list li {
+  margin-bottom: 12px;
+}
+
+.article-index-list li:last-child {
+  margin-bottom: 0;
+}
+
+.article-index-list a {
+  font-weight: 600;
+}
+
+.article-back {
+  margin: 0 0 16px;
+  font-size: 0.9rem;
+}
+
+.article-sheet .article-page-title {
+  margin: 0 0 8px;
+  font-size: clamp(1.15rem, 3.2vw, 1.45rem);
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--navy-800);
+}
+
+.article-sheet .sub-block h2 {
+  margin: 0 0 14px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy-700);
+}
+
+.faq-list {
+  margin: 0;
+}
+
+.faq-list dt {
+  margin: 18px 0 0;
+  font-weight: 700;
+  color: var(--navy-800);
+}
+
+.faq-list dt:first-child {
+  margin-top: 0;
+}
+
+.faq-list dd {
+  margin: 6px 0 0;
+  padding: 0;
+  color: var(--text);
+}
+
+.articles-hub h1 {
+  margin: 0 0 16px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy-800);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--navy-600);
+  display: inline-block;
+  min-width: min(100%, 12rem);
+}
+
 .site-footer {
   padding: 28px 18px;
   background: var(--navy-900);
