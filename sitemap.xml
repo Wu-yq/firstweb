@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 站点地图：主域 https://xhy-power.cn -->
+<!-- 站点地图：主域 https://www.xhy-power.cn -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://xhy-power.cn/</loc>
+    <loc>https://www.xhy-power.cn/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://xhy-power.cn/articles/</loc>
+    <loc>https://www.xhy-power.cn/articles/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://xhy-power.cn/articles/new-energy-base-station/</loc>
+    <loc>https://www.xhy-power.cn/articles/new-energy-base-station/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
