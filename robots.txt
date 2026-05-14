@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /articles/
-Allow: /articles/new-energy-base-station/
 
-# 部署时将 yourcompany.example 替换为实际上线域名
-Sitemap: https://yourcompany.example/sitemap.xml
+# Sitemap（主域 https://xhy-power.cn）
+Sitemap: https://xhy-power.cn/sitemap.xml
