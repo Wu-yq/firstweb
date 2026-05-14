@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 部署时请将 https://yourcompany.example 全文替换为实际上线域名（含 https），路径按实际部署调整 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yourcompany.example/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yourcompany.example/articles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://yourcompany.example/articles/new-energy-base-station/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.55</priority>
+  </url>
+</urlset>
