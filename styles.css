@@ -231,77 +231,6 @@ a:hover {
   color: rgba(255, 255, 255, 0.95);
 }
 
-/* 内页顶区：与首页同色 hero 带，再进入白底 section，版式统一 */
-.hero.hero--inner {
-  padding: 44px 18px 48px;
-}
-
-.hero.hero--inner .breadcrumb {
-  max-width: none;
-  margin: 0 0 12px;
-  padding: 0;
-  font-size: 0.8125rem;
-  color: rgba(232, 238, 245, 0.72);
-}
-
-.hero.hero--inner .breadcrumb a {
-  color: rgba(255, 255, 255, 0.88);
-  text-decoration: none;
-}
-
-.hero.hero--inner .breadcrumb a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.hero.hero--inner h1 {
-  margin: 0 0 14px;
-  font-size: clamp(1.12rem, 3.4vw, 1.72rem);
-  font-weight: 700;
-  line-height: 1.38;
-  color: #fff;
-}
-
-.hero.hero--inner .hero-tagline {
-  margin: 0;
-  max-width: 44rem;
-}
-
-.article-back--in-hero {
-  margin: 0 0 12px;
-  font-size: 0.875rem;
-}
-
-.hero.hero--inner .article-back a {
-  color: rgba(255, 255, 255, 0.88);
-  text-decoration: none;
-}
-
-.hero.hero--inner .article-back a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.article-byline--in-hero {
-  margin: 0;
-  font-size: 0.875rem;
-  color: rgba(232, 238, 245, 0.88);
-  max-width: 48rem;
-  line-height: 1.55;
-}
-
-.hero.hero--inner .article-byline-label {
-  color: rgba(232, 238, 245, 0.62);
-}
-
-.article-sheet > article > header {
-  margin-bottom: 4px;
-}
-
-.articles-hub .article-card-list {
-  margin-top: 4px;
-}
-
 .section {
   padding: 44px 18px;
 }
@@ -322,7 +251,6 @@ a:hover {
 }
 
 .hero h1,
-.hero.hero--inner h1,
 .hero-tagline,
 .section h2,
 .sub-block h3,
@@ -589,6 +517,14 @@ a:hover {
   font-size: 0.9rem;
 }
 
+.article-sheet .article-page-title {
+  margin: 0 0 8px;
+  font-size: clamp(1.15rem, 3.2vw, 1.45rem);
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--navy-800);
+}
+
 .article-sheet .sub-block h2 {
   margin: 0 0 14px;
   font-size: 1.05rem;
@@ -614,6 +550,18 @@ a:hover {
   margin: 6px 0 0;
   padding: 0;
   color: var(--text);
+}
+
+.articles-hub h1 {
+  margin: 0 0 16px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy-800);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--navy-600);
+  display: inline-block;
+  min-width: min(100%, 12rem);
+  max-width: 100%;
 }
 
 .breadcrumb {
