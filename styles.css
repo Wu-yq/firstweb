@@ -478,6 +478,36 @@ a:hover {
   color: var(--muted);
 }
 
+.article-related-reading {
+  margin: 0 0 18px;
+}
+
+.article-related-read-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.article-related-read-list li {
+  margin: 0 0 6px;
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+.article-related-read-list li:last-child {
+  margin-bottom: 0;
+}
+
+.article-related-read-list a {
+  color: var(--navy-600);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.article-related-read-list a:hover {
+  text-decoration: underline;
+}
+
 .article-sync-note,
 .article-source-note {
   margin: 0 0 8px;
