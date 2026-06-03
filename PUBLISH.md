@@ -81,7 +81,7 @@ GitHub Pages 只会**用仓库里的文件覆盖线上同名文件**，不会自
 |------|--------|
 | ① | 复制 `articles/某篇旧文/index.html` → 新建 `articles/新slug/index.html`，改标题、正文、canonical、日期、FAQ 等 |
 | ② | 打开 `articles.manifest.json`，在 `articles` **数组最上面**加一条新文章信息 |
-| ③ | 在「官网」文件夹打开终端，执行 **`npm run sync`**（需已安装 [Node.js](https://nodejs.org/)） |
+| ③ | 在「官网」文件夹打开终端，执行 **`npm run sync`**（含 sitemap/列表/页脚/**meta description**；需已安装 [Node.js](https://nodejs.org/)） |
 | ④ | 打开 **`index.html`**，把 Hero 里「近期：…」那条链接改成新文章 |
 | ⑤ | 本地浏览器打开 `index.html`、`articles/index.html`、新文章页，确认链接正常 |
 | ⑥ | 把「官网」里**有改动的文件**提交到 GitHub（见下方三种方式任选一种） |

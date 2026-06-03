@@ -3,7 +3,8 @@
   "private": true,
   "description": "沈阳兴华源电力工程设计有限公司官网静态站点",
   "scripts": {
-    "sync": "node scripts/sync-discovery.mjs && node scripts/sync-article-footers.mjs",
+    "sync": "node scripts/sync-discovery.mjs && node scripts/sync-article-footers.mjs && node scripts/sync-meta-descriptions.mjs",
+    "sync:meta": "node scripts/sync-meta-descriptions.mjs",
     "sync:discovery": "node scripts/sync-discovery.mjs",
     "sync:articles": "node scripts/sync-article-footers.mjs"
   }
