@@ -590,6 +590,46 @@ a:hover {
   color: var(--text);
 }
 
+/* 供搜索引擎读取、视觉上不干扰阅读的 AI 摘要 */
+.ai-summary-block {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.article-series-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px 24px;
+  margin: 28px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 0.9375rem;
+}
+
+.article-series-nav a {
+  color: var(--navy-600);
+  text-decoration: none;
+}
+
+.article-series-nav a:hover {
+  text-decoration: underline;
+}
+
+.article-series-nav-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
 .articles-hub h1 {
   margin: 0 0 16px;
   font-size: 1.25rem;
