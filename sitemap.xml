@@ -8,14 +8,20 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.xhy-power.cn/articles/new-energy-base-access-scheme-comparison/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://www.xhy-power.cn/articles/ai-datacenter-grid-coordination/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.xhy-power.cn/articles/new-energy-base-energy-storage/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -27,7 +33,7 @@
   </url>
   <url>
     <loc>https://www.xhy-power.cn/articles/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
