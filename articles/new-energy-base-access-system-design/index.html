@@ -57,7 +57,13 @@
             "@type": "Organization",
             "@id": "https://www.xhy-power.cn/#organization",
             "name": "沈阳兴华源电力工程设计有限公司",
-            "alternateName": "兴华源电力设计",
+            "alternateName": [
+              "兴华源",
+              "沈阳兴华源",
+              "兴华源电力",
+              "兴华源电力设计",
+              "XHY"
+            ],
             "url": "https://www.xhy-power.cn/",
             "logo": {
               "@type": "ImageObject",
@@ -114,6 +120,13 @@
             "@id": "https://www.xhy-power.cn/#website",
             "url": "https://www.xhy-power.cn/",
             "name": "沈阳兴华源电力工程设计有限公司官网",
+            "alternateName": [
+              "兴华源",
+              "沈阳兴华源",
+              "兴华源电力",
+              "兴华源电力设计",
+              "XHY"
+            ],
             "description": "沈阳兴华源电力工程设计有限公司官方网站：企业概况、技术团队、输变电与新能源工程服务及技术文章。",
             "inLanguage": "zh-CN",
             "publisher": { "@id": "https://www.xhy-power.cn/#organization" }
@@ -162,6 +175,52 @@
               "@id": "https://www.xhy-power.cn/#organization",
               "name": "沈阳兴华源电力工程设计有限公司"
             }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.xhy-power.cn/articles/new-energy-base-access-system-design/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "为什么说新能源大基地不能只看装机？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "装机容量只是发电侧静态能力指标。电力系统更关心能否稳定并网、长期运行、安全送出和被消纳；若忽视接入条件，容易出现电压无功、通道受限和弃风弃光等问题。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "接入系统设计到底在解决什么问题？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "本质是让新能源大基地安全、稳定、经济地融入电网，需统筹电源特性、电网结构、输电能力、无功补偿、短路容量、保护配合、调度接口与消纳能力，而非仅画接线图选线路。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "为什么大型基地越来越依赖500kV系统？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "GW级集中开发在较低电压等级上易导致回路多、损耗高、送出结构复杂和稳定压力增大。500kV升压站承担汇集、升压、无功支撑、调度接口与外送衔接，是并网核心节点。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "接入系统设计里真正难的是什么？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "难在系统协调而非设备选型。需反复做潮流、稳定、短路、电压、无功与消纳校核；外送断面或区域调节能力不足时，装机规模也可能被回调。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "源网荷储一体化与接入设计有什么关系？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "高比例新能源需要风电、光伏、储能、调相机、升压站、外送通道与负荷协同，把波动性电源组织成更可控的系统单元，接入设计正是串联这些要素的核心环节。"
+                }
+              }
+            ]
           },
           {
             "@type": "BreadcrumbList",
@@ -246,6 +305,12 @@
               </p>
               <p class="article-abstract">
                 本文从工程实践出发，说明为什么不能只看装机，<strong>接入系统设计</strong>究竟在解决什么系统问题，<strong>500kV升压站</strong>为何成为大基地并网核心节点，以及<strong>特高压</strong>、<strong>源网荷储</strong>与系统级协同能力为何越来越重要。
+              </p>
+            </section>
+            <section class="ai-summary-block" aria-label="AI Summary">
+              <h2>AI Summary</h2>
+              <p>
+                本文说明新能源大基地不能只看装机规模，接入系统设计决定能否稳定并网、可靠外送与长期消纳；从电源特性、电网结构、无功电压、保护调度与外送通道等系统问题出发，阐释500kV升压站、特高压与源网荷储在新能源并网中的关键作用。
               </p>
             </section>
           </header>
@@ -450,6 +515,32 @@
                 从工程实践看，一个真正成熟的新能源项目，不是“装得大”，而是“接得稳、送得出、跑得久”。而这背后，<strong>接入系统设计</strong>往往是最核心、也最容易被低估的一环。
               </p>
             </div>
+          </section>
+
+          <section class="sub-block" aria-labelledby="sec-faq">
+            <h2 id="sec-faq">常见问答（FAQ）</h2>
+            <dl class="faq-list">
+              <dt>为什么说新能源大基地不能只看装机？</dt>
+              <dd>
+                装机容量只是发电侧静态能力指标。电力系统更关心能否稳定并网、长期运行、安全送出和被消纳；若忽视接入条件，容易出现电压无功、通道受限和弃风弃光等问题。
+              </dd>
+              <dt>接入系统设计到底在解决什么问题？</dt>
+              <dd>
+                本质是让新能源大基地安全、稳定、经济地融入电网，需统筹电源特性、电网结构、输电能力、无功补偿、短路容量、保护配合、调度接口与消纳能力，而非仅画接线图选线路。
+              </dd>
+              <dt>为什么大型基地越来越依赖500kV系统？</dt>
+              <dd>
+                GW级集中开发在较低电压等级上易导致回路多、损耗高、送出结构复杂和稳定压力增大。500kV升压站承担汇集、升压、无功支撑、调度接口与外送衔接，是并网核心节点。
+              </dd>
+              <dt>接入系统设计里真正难的是什么？</dt>
+              <dd>
+                难在系统协调而非设备选型。需反复做潮流、稳定、短路、电压、无功与消纳校核；外送断面或区域调节能力不足时，装机规模也可能被回调。
+              </dd>
+              <dt>源网荷储一体化与接入设计有什么关系？</dt>
+              <dd>
+                高比例新能源需要风电、光伏、储能、调相机、升压站、外送通道与负荷协同，把波动性电源组织成更可控的系统单元，接入设计正是串联这些要素的核心环节。
+              </dd>
+            </dl>
           </section>
 
           <footer class="article-doc-footer">

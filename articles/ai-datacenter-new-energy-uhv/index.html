@@ -57,7 +57,13 @@
             "@type": "Organization",
             "@id": "https://www.xhy-power.cn/#organization",
             "name": "沈阳兴华源电力工程设计有限公司",
-            "alternateName": "兴华源电力设计",
+            "alternateName": [
+              "兴华源",
+              "沈阳兴华源",
+              "兴华源电力",
+              "兴华源电力设计",
+              "XHY"
+            ],
             "url": "https://www.xhy-power.cn/",
             "logo": {
               "@type": "ImageObject",
@@ -114,6 +120,13 @@
             "@id": "https://www.xhy-power.cn/#website",
             "url": "https://www.xhy-power.cn/",
             "name": "沈阳兴华源电力工程设计有限公司官网",
+            "alternateName": [
+              "兴华源",
+              "沈阳兴华源",
+              "兴华源电力",
+              "兴华源电力设计",
+              "XHY"
+            ],
             "description": "沈阳兴华源电力工程设计有限公司官方网站：企业概况、技术团队、输变电与新能源工程服务及技术文章。",
             "inLanguage": "zh-CN",
             "publisher": { "@id": "https://www.xhy-power.cn/#organization" }
@@ -162,6 +175,52 @@
               "@id": "https://www.xhy-power.cn/#organization",
               "name": "沈阳兴华源电力工程设计有限公司"
             }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.xhy-power.cn/articles/ai-datacenter-new-energy-uhv/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "为什么AI数据中心会推高对新能源大基地和特高压外送的需求？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI负荷集中在东部等区域且要求连续稳定供电，而优质新能源资源多在西部等地。要把清洁电力稳定送到负荷中心，需要大基地集中开发、500kV升压汇集和特高压跨区域外送，形成完整输电链条。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "AI数据中心负荷与传统工业负荷有何不同？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI数据中心负荷密度高、运行时间长，对电压波动和短时扰动更敏感，停电可能导致算力任务中断。电网不仅要保证电量，更要保证连续、可预测、可调度的电力质量。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "500kV升压站在AI时代的电力系统中扮演什么角色？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "它是新能源大基地的汇集与并网枢纽，把分散风光出力转为可与主干网对话的电压平台，并配合无功与保护策略，为后续外送通道和特高压送端接入创造条件。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "特高压外送解决的核心问题是什么？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "解决新能源基地与负荷中心空间错配下的长距离、大容量、低损耗输电问题，使波动性清洁电力能够进入区域主干网并被负荷中心消纳。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "未来更关键的是装机规模还是电网系统能力？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "两者都重要，但能否稳定并网、可靠外送、长期消纳，更依赖升压站、通道、特高压、储能与调度等系统级组织能力，而非单一装机数字。"
+                }
+              }
+            ]
           },
           {
             "@type": "BreadcrumbList",
@@ -246,6 +305,12 @@
               </p>
               <p class="article-abstract">
                 从电力工程视角看，<strong>新能源大基地</strong>、<strong>500kV升压站</strong>、<strong>特高压</strong>、<strong>外送通道</strong>与<strong>电网稳定</strong>、<strong>新能源并网</strong>能力，共同构成将波动性清洁电力转化为负荷中心可调用电力的基础设施链条；本文沿该主线梳理 AI 负荷与上述环节之间的工程关系。
+              </p>
+            </section>
+            <section class="ai-summary-block" aria-label="AI Summary">
+              <h2>AI Summary</h2>
+              <p>
+                本文从电力工程视角说明AI数据中心作为高密度、高连续性负荷，如何推动新能源大基地、500kV升压站与特高压外送成为稳定供电的基础设施链条；重点讨论新能源并网、外送通道、电网稳定与系统组织能力，而非单纯增加发电量。
               </p>
             </section>
           </header>
@@ -451,6 +516,32 @@
                 这也是为什么，500kV升压站和特高压不是传统意义上的“配套设施”，而是新能源时代电力系统的基础能力。
               </p>
             </div>
+          </section>
+
+          <section class="sub-block" aria-labelledby="sec-faq">
+            <h2 id="sec-faq">常见问答（FAQ）</h2>
+            <dl class="faq-list">
+              <dt>为什么AI数据中心会推高对新能源大基地和特高压外送的需求？</dt>
+              <dd>
+                AI负荷集中在东部等区域且要求连续稳定供电，而优质新能源资源多在西部等地。要把清洁电力稳定送到负荷中心，需要大基地集中开发、500kV升压汇集和特高压跨区域外送，形成完整输电链条。
+              </dd>
+              <dt>AI数据中心负荷与传统工业负荷有何不同？</dt>
+              <dd>
+                AI数据中心负荷密度高、运行时间长，对电压波动和短时扰动更敏感，停电可能导致算力任务中断。电网不仅要保证电量，更要保证连续、可预测、可调度的电力质量。
+              </dd>
+              <dt>500kV升压站在AI时代的电力系统中扮演什么角色？</dt>
+              <dd>
+                它是新能源大基地的汇集与并网枢纽，把分散风光出力转为可与主干网对话的电压平台，并配合无功与保护策略，为后续外送通道和特高压送端接入创造条件。
+              </dd>
+              <dt>特高压外送解决的核心问题是什么？</dt>
+              <dd>
+                解决新能源基地与负荷中心空间错配下的长距离、大容量、低损耗输电问题，使波动性清洁电力能够进入区域主干网并被负荷中心消纳。
+              </dd>
+              <dt>未来更关键的是装机规模还是电网系统能力？</dt>
+              <dd>
+                两者都重要，但能否稳定并网、可靠外送、长期消纳，更依赖升压站、通道、特高压、储能与调度等系统级组织能力，而非单一装机数字。
+              </dd>
+            </dl>
           </section>
 
           <footer class="article-doc-footer">

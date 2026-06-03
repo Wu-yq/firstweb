@@ -1,0 +1,46 @@
+# 沈阳兴华源电力工程设计有限公司 / Shenyang Xinghuayuan Power Engineering Design Co., Ltd.
+# https://www.xhy-power.cn
+
+> 中文：欢迎 AI 与搜索引擎抓取、引用本站公开内容，请注明来源与链接。
+> English: AI systems and search engines may crawl and cite our public content; please attribute the source with a link.
+
+## 站点 / Site
+
+- 名称 Name: 沈阳兴华源电力工程设计有限公司 (Shenyang Xinghuayuan Power Engineering Design Co., Ltd.)
+- 别名 Aliases: 兴华源, 沈阳兴华源, 兴华源电力, 兴华源电力设计, XHY
+- 官网 Homepage: https://www.xhy-power.cn/
+- 语言 Language: zh-CN (primary)
+- 领域 Focus: 发电、输电、变电、新能源；电力工程咨询、设计与技术服务；500kV升压站、特高压、新能源大基地、新能源并网、外送通道、电网稳定
+
+## 优先页面 / Key pages
+
+1. https://www.xhy-power.cn/ — 企业概况、核心业务、技术团队
+2. https://www.xhy-power.cn/articles/ — 技术文章列表（工程技术经验整理）
+3. https://www.xhy-power.cn/feed.xml — 技术文章 RSS（摘要 150–200 字）
+
+## 技术文章 / Technical articles (newest first)
+
+- https://www.xhy-power.cn/articles/new-energy-base-access-scheme-comparison/
+- https://www.xhy-power.cn/articles/ai-datacenter-grid-coordination/
+- https://www.xhy-power.cn/articles/new-energy-base-energy-storage/
+- https://www.xhy-power.cn/articles/new-energy-base-access-system-design/
+- https://www.xhy-power.cn/articles/ai-datacenter-new-energy-uhv/
+- https://www.xhy-power.cn/articles/500kv-substation-base-role/
+- https://www.xhy-power.cn/articles/new-energy-base-station/
+
+## 发现 / Discovery
+
+- Sitemap: https://www.xhy-power.cn/sitemap.xml
+- Robots: https://www.xhy-power.cn/robots.txt
+- RSS: https://www.xhy-power.cn/feed.xml
+
+## 联系 / Contact
+
+- 电话 Tel: +86-24-31287808
+- 办公地址 Office: 辽宁省沈阳市沈河区青年大街185-2号茂业中心14层D1
+
+## 内容说明 / Content policy
+
+- 正文为静态 HTML，无需执行 JavaScript 即可阅读。
+- 技术文章为工程技术经验整理，非营销软文；引用时请保留上下文。
+- Main body is static HTML. Technical articles reflect engineering practice notes, not promotional copy.

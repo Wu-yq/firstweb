@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 
-# Sitemap（https://www.xhy-power.cn）
+# Sitemap / RSS / LLMs（https://www.xhy-power.cn）
 Sitemap: https://www.xhy-power.cn/sitemap.xml
+# Feed: https://www.xhy-power.cn/feed.xml
+# LLMs: https://www.xhy-power.cn/llms.txt
