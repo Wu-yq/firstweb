@@ -1,6 +1,16 @@
 User-agent: *
 Allow: /
 
+# 根目录遗留跳转页（noindex，仅保留旧链接兼容；正式 URL 见各页 canonical）
+Disallow: /about.html
+Disallow: /contact.html
+Disallow: /team.html
+Disallow: /partners.html
+Disallow: /services.html
+Disallow: /projects.html
+Disallow: /articles.html
+Disallow: /article-renewable-major-base-outbound.html
+
 # Sitemap / RSS / LLMs（https://www.xhy-power.cn）
 Sitemap: https://www.xhy-power.cn/sitemap.xml
 # Feed: https://www.xhy-power.cn/feed.xml

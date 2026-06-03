@@ -20,6 +20,7 @@
 
 ## 技术文章 / Technical articles (newest first)
 
+<!-- ARTICLES_LIST_START -->
 - https://www.xhy-power.cn/articles/new-energy-base-access-scheme-comparison/
 - https://www.xhy-power.cn/articles/ai-datacenter-grid-coordination/
 - https://www.xhy-power.cn/articles/new-energy-base-energy-storage/
@@ -27,6 +28,7 @@
 - https://www.xhy-power.cn/articles/ai-datacenter-new-energy-uhv/
 - https://www.xhy-power.cn/articles/500kv-substation-base-role/
 - https://www.xhy-power.cn/articles/new-energy-base-station/
+<!-- ARTICLES_LIST_END -->
 
 ## 发现 / Discovery
 

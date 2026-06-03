@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 由 scripts/sync-discovery.mjs 根据 articles.manifest.json 生成 -->
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术文章｜沈阳兴华源电力工程设计有限公司</title>
@@ -6,54 +7,54 @@
     <atom:link href="https://www.xhy-power.cn/feed.xml" rel="self" type="application/rss+xml" />
     <description>围绕新能源大基地、500kV升压站、特高压外送、接入系统设计、储能与AI数据中心电网协同的工程技术文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Jun 2026 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0800</lastBuildDate>
     <item>
       <title>新能源大基地接入系统方案比选，到底在比什么？</title>
       <link>https://www.xhy-power.cn/articles/new-energy-base-access-scheme-comparison/</link>
       <guid isPermaLink="true">https://www.xhy-power.cn/articles/new-energy-base-access-scheme-comparison/</guid>
-      <pubDate>Thu, 05 Jun 2026 08:00:00 +0800</pubDate>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0800</pubDate>
       <description>从工程设计角度解析新能源大基地接入系统方案比选的核心逻辑，说明电源规模、电网结构、潮流分布、消纳能力、外送通道与投资成本如何影响并网、送出与长期经济性，并梳理500kV与220kV方案选择及源网荷储协同趋势。</description>
     </item>
     <item>
       <title>AI数据中心与新能源大基地之间，为什么本质上拼的是电网协同能力？</title>
       <link>https://www.xhy-power.cn/articles/ai-datacenter-grid-coordination/</link>
       <guid isPermaLink="true">https://www.xhy-power.cn/articles/ai-datacenter-grid-coordination/</guid>
-      <pubDate>Tue, 03 Jun 2026 08:00:00 +0800</pubDate>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0800</pubDate>
       <description>从电力系统工程角度解析AI智算中心阶跃负荷、新能源大基地波动出力与电网协同能力之间的关系，梳理500kV升压站、特高压外送、储能与构网型技术在算力基础设施中的关键角色。</description>
     </item>
     <item>
       <title>储能在新能源大基地中到底起什么作用？为什么它越来越像刚需？</title>
       <link>https://www.xhy-power.cn/articles/new-energy-base-energy-storage/</link>
       <guid isPermaLink="true">https://www.xhy-power.cn/articles/new-energy-base-energy-storage/</guid>
-      <pubDate>Sun, 01 Jun 2026 08:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0800</pubDate>
       <description>从工程设计角度说明储能在新能源大基地中如何从配套设备转向系统调节资源，承担平滑出力、提升消纳、调峰调频与电压支撑等作用，并与500kV升压站、特高压外送及电网稳定形成协同。</description>
     </item>
     <item>
       <title>新能源大基地为什么不能只看装机？接入系统设计到底在设计什么？</title>
       <link>https://www.xhy-power.cn/articles/new-energy-base-access-system-design/</link>
       <guid isPermaLink="true">https://www.xhy-power.cn/articles/new-energy-base-access-system-design/</guid>
-      <pubDate>Tue, 27 May 2026 08:00:00 +0800</pubDate>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0800</pubDate>
       <description>从工程设计角度说明新能源大基地不能只看装机规模，接入系统设计如何决定项目能否稳定并网、经济送出并融入电网；并梳理500kV升压站、外送通道、特高压与源网荷储在系统协同中的角色。</description>
     </item>
     <item>
       <title>AI数据中心越火，为什么越需要新能源大基地、500kV升压站和特高压外送？</title>
       <link>https://www.xhy-power.cn/articles/ai-datacenter-new-energy-uhv/</link>
       <guid isPermaLink="true">https://www.xhy-power.cn/articles/ai-datacenter-new-energy-uhv/</guid>
-      <pubDate>Mon, 19 May 2026 08:00:00 +0800</pubDate>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0800</pubDate>
       <description>从电力工程视角看，AI数据中心负荷密度高、连续运行时间长，对供电连续性与电压质量的要求远高于普通负荷；其增长使新能源大基地、500kV升压站与特高压外送成为将清洁电力送达负荷中心的关键链条。</description>
     </item>
     <item>
       <title>500kV升压站在新能源大基地中到底起什么作用？</title>
       <link>https://www.xhy-power.cn/articles/500kv-substation-base-role/</link>
       <guid isPermaLink="true">https://www.xhy-power.cn/articles/500kv-substation-base-role/</guid>
-      <pubDate>Thu, 15 May 2026 08:00:00 +0800</pubDate>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0800</pubDate>
       <description>500kV升压站不是单纯升压设备，而是新能源大基地并网、汇集、无功支撑、调度控制、故障保护、外送通道衔接的核心枢纽；本文从工程逻辑说明其为何成为大基地与特高压外送之间的关键一层。</description>
     </item>
     <item>
       <title>新能源大基地项目（光伏/风电）为何必须配套升压站和外送通道？</title>
       <link>https://www.xhy-power.cn/articles/new-energy-base-station/</link>
       <guid isPermaLink="true">https://www.xhy-power.cn/articles/new-energy-base-station/</guid>
-      <pubDate>Wed, 14 May 2026 08:00:00 +0800</pubDate>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0800</pubDate>
       <description>结合新能源大基地项目实际工程逻辑，从电网稳定性、远距离输电、新能源消纳、500kV升压站、特高压外送等角度，分析大型光伏与风电项目为何必须同步建设升压站及外送通道。</description>
     </item>
   </channel>
